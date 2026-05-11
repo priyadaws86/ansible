@@ -1,0 +1,43 @@
+- name: "ABC"
+  dob: "01-01-01"
+  age: 21
+  addresses:
+    # Object
+  - doorno: 2-121
+    street: "BhagyaNagar colony"
+    city: Hyderabad
+    pin: 500035
+    type: current
+
+  - doorno: 2-121  
+    street: "BhagyaNagar colony"
+    city: Hyderabad
+    pin: 500035
+    type: perm
+
+  skills:
+  - Java
+  - Devops
+  - Cloud
+
+- name: "EFG"
+  dob: "02-02-02"
+  age: 22
+  addresses:
+    # Object
+  - doorno: 12-132
+    street: "Gandhi Nagar"
+    city: Hyderabad
+    pin: 500035
+    type: current
+
+  - doorno: 12-132
+    street: "Gandhi Nagar"
+    city: Hyderabad
+    pin: 500035
+    type: perm
+
+  skills:
+  - Java
+  - Devops
+  - Cloud

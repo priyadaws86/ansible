@@ -1,0 +1,17 @@
+{
+    "name": "Priya"
+    "dob": "01-01-01"
+    "adderssses": [
+       {
+           "type": "current",
+           "doorno": "14-132",
+           "city": "Hyd"
+        },
+        {
+           "type": "perm",
+           "doorno": "14-132",
+           "city": "Hyd"
+        }
+    ],
+    "skills": ["Java", "Devops", "Cloud"]
+}

@@ -1,0 +1,47 @@
+<!-- List of Objects -->
+<Students>
+<!-- Object -->
+<Student>   
+    <Name>Priya</Name>
+    <DOB>01-01-01</DOB>
+    <Age>12</Age>
+    <!-- List of objects -->
+    <Addresses>
+    <!-- /Object -->
+        <Address type="Perm">
+            <DoorNo>12-121</DoorNo>
+            <City>Hyd</City>
+        </Address>
+        <Address type="Current">
+            <DoorNo>12-121</DoorNo>
+            <City>Hyd</City>
+        </Address>
+    </Addresses>
+    <Skills>
+        <Skill>Java</Skill>
+        <Skill>Devops</Skill>
+        <Skill>Cloud</Skill>
+    </Skills>
+</Student>
+<Student>   
+    <Name>Priya</Name>
+    <DOB>01-01-01</DOB>
+    <Age>12</Age>
+    <!-- List of objects -->
+    <Addresses>
+    <!-- /Object -->
+        <Address type="Perm">
+            <DoorNo>12-121</DoorNo>
+            <City>Hyd</City>
+        </Address>
+        <Address type="Current">
+            <DoorNo>12-121</DoorNo>
+            <City>Hyd</City>
+        </Address>
+    </Addresses>
+    <Skills>
+        <Skill>Java</Skill>
+        <Skill>Devops</Skill>
+        <Skill>Cloud</Skill>
+    </Skills>
+</Student>
