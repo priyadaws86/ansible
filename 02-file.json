@@ -1,7 +1,7 @@
 {
-    "name": "Priya"
-    "dob": "01-01-01"
-    "adderssses": [
+    "name": "Priya",
+    "dob": "01-01-01",
+    "addressses": [
        {
            "type": "current",
            "doorno": "14-132",
