@@ -1,9 +1,9 @@
 - name: Varaibles from files
   hosts: local
   connection: local
-  var_files: 
+  vars_files: 
   - course_yaml
   tasks:
     - name: Print course info
       ansible.builtin.debug:
-        msg: "Course name is: {{ COURSE}} {{ DURATION }} {{ TRAINEE}}"
+        msg: "Course name is: {{ COURSE}} {{ DURATION }} {{ TRAINEE }}"
