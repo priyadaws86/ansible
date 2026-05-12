@@ -1,14 +1,14 @@
 - name: Variables through tasks
   hosts: local
   connection: local
-  var:
+  vars:
     COURSE: DevOps
     Duration: 24HRS
     TRAINER: Siva
 
   tasks:
     - name: Print the Course info
-      var: 
+      vars: 
         COURSE: Ansible
 
       ansible.builtin.debug:
