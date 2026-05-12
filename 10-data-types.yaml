@@ -2,8 +2,8 @@
   hosts: local
   connection: local
   vars:
-    Course: "DevOps with AWS"
-    Duration: 120
+    COURSE: "DevOps with AWS"
+    DURATION: 120
     is_live: true
     tools: #["Linux", "Shell", "Ansible"]
     - "Linux"
@@ -16,4 +16,3 @@
   - name: Print Course info
     ansible.builtin.debug:
       msg: "Course Name: {{ COURSE }}, Duration is: {{ DURATION }}, is it live?: {{ is_live }}, tools are {{ tools }}, concepts are: {{ concepts }}"
-      
