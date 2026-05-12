@@ -8,8 +8,8 @@
 
     - name: password
       prompt: What is your password?
-      private: false
-
+      private: true
+      
   tasks:
 
     - name: Print a message
