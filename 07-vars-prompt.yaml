@@ -8,7 +8,7 @@
 
     - name: password
       prompt: What is your password?
-      private: true
+      private: false
 
   tasks:
 
