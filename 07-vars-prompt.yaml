@@ -16,6 +16,3 @@
       ansible.builtin.debug:
         msg: "Hello, Username is: {{ username }}"
   
-    - name: Print a message
-      ansible.builtin.debug:
-        msg: "Hello, Password is : {{ password }}"
