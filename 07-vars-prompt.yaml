@@ -8,9 +8,14 @@
 
     - name: password
       prompt: What is your password?
+      private: true
 
   tasks:
 
     - name: Print a message
       ansible.builtin.debug:
         msg: "Hello, Username is: {{ username }}"
+  
+    - name: Print a message
+      ansible.builtin.debug:
+        msg: "Hello, Password is : {{ password }}"
