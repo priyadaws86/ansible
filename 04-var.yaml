@@ -1,0 +1,5 @@
+- name: Variable
+  hosts: local
+  connection: local
+  tasks:
+    - name: 
