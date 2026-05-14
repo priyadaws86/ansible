@@ -33,8 +33,8 @@
 
   - name: read yaml and take it into variable
     ansible.builtin.set_fact:
-        03-file_yaml: "{{ lookup('file', '03-file.yaml') | from_yaml }}"
+        file_yaml: "{{ lookup('file', '03-file.yaml') | from_yaml }}"
 
   - name: convert yaml into jason
     ansible.builtin.debug:
-        msg: "json: {{ 03-file_yaml | to_json }}"
+        msg: "json: {{ file_yaml | to_json }}"
