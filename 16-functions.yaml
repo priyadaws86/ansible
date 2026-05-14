@@ -10,5 +10,5 @@
       msg: "Hello, {{ name | default('ABC') }}" 
 
   - name: convert string to list
-    ansible.bulitin.debug:
+    ansible.builtin.debug:
       msg: "technologies are: {{ technologies | split(',') }}"
