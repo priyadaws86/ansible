@@ -5,7 +5,7 @@
     technologies: DevOps, Linux, AWS, Shell, Ansible
     name: "priya"
     gmail: priya@gmail.com 
-    ipaddress: 345.4329.43212.4332
+    ipaddress: 192.168.0.1
     
     tags: 
       Application: payment
