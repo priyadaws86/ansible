@@ -5,6 +5,7 @@
     technologies: DevOps, Linux, AWS, Shell, Ansible
     name: "priya"
     gmail: priya@gmail.com 
+    ipaddress: 345.4329.43212.4332
     
     tags: 
       Application: payment
@@ -53,3 +54,7 @@
   - name: convert to lower
     ansible.builtin.debug:
       msg: "{{ gmail | lower }}"
+
+  - name: check IP is valid or not
+    ansible.builtin.debug:
+      msg: "{{ ipaddress | ansible.utils.ipv4 }}"
