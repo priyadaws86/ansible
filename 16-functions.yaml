@@ -5,5 +5,4 @@
   tasks:
   - name: default variables
     ansible.builtin.debug:
-      msg: "Hello, {{ name | defailt('ABC') }}" 
-      
+      msg: "Hello, {{ name | default('ABC') }}" 
