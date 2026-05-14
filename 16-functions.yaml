@@ -3,7 +3,8 @@
   connection: local
   vars:
     technologies: DevOps, Linux, AWS, Shell, Ansible
-    name: "PRIYA"
+    name: "priya"
+    gmail: priya@gmail.com 
     
     tags: 
       Application: payment
@@ -45,6 +46,10 @@
       dest: ./student-data.json
       content: "{{ file_yaml | to_nice_json }}"
 
-  - name: conver to lowercase
+  - name: convert to uppercase
     ansible.builtin.debug:
-      msg: "{{ name | lower }}"
+      msg: "{{ name | upper }}"
+
+  - name: convert to lower
+    ansible.builtin.debug:
+      msg: "{{ gmail | lower }}"
