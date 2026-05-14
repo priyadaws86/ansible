@@ -3,6 +3,7 @@
   connection: local
   vars:
     technologies: DevOps, Linux, AWS, Shell, Ansible
+    name: "PRIYA"
     
     tags: 
       Application: payment
@@ -43,3 +44,7 @@
     ansible.builtin.copy:
       dest: ./student-data.json
       content: "{{ file_yaml | to_nice_json }}"
+
+  - name: conver to lowercase
+    ansible.builtin.debug:
+      msg: "{{ name | lower }}"
